@@ -7,6 +7,13 @@ Follow the instructions on this page to learn about the magnetometer, - http://m
 Make your microbit display the letters "N', "E", "S" and "W" when the microbit is pointing North, East, South and West respectively.<br>
 <img src="north.png" width="200" height="200">
 
+## Grading
+|Task|Satisfactory|Not Satisfactory|
+|----|---------|----------------|
+|Full and Correct compass code|||
+
+Make sure you complete the code below to get an S for this task.
+
 ## Starter code ##
     from microbit import *
 
