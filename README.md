@@ -13,7 +13,27 @@ Make your microbit display the letters "N', "E", "S" and "W" when the microbit i
 |Full and Correct compass code|||
 
 Make sure you complete the code below to get an S for this task.
+from microbit import *
+## finished code ##
+   compass.calibrate()
 
+   while True:
+      sleep(100)
+   #put the compass reading into a variable
+      val = compass.heading()
+    
+   #check the value of the variable against known
+   #values for N, S, E and W and display appropriate image
+      if ( val < 45)  :
+        display.show('N')   
+      elif (val < 115 ) :
+        display.show('E')   
+      elif(val < 225) :
+        display.show('S')
+      elif ( val < 305 ) :
+        display.show('W')
+      else:
+        display.show(Image.NO)
 ## Starter code ##
     from microbit import *
 
